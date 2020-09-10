@@ -55,6 +55,33 @@
 - Tensorflow
 - Keras
 
+##### 6. GPU 서버 사용하기
+
+1) SSAFY GIT 팀 정보에서 신청 결과 확인 
+
+- User Info
+  - User Name: team1
+  - Password: 
+- gpu-server09(70.12.130.109)
+
+2) 개인 PC -> VPN 접속(server.ssafy.com) -> 할당 받은 서버의 IP로 SSH 접속
+
+- VPN ID: ssafy, VPN PW: trainee#0114#
+
+3) SSH 접속 후 hostname, username, conda version 확인 후 사용(패스워드 변경하기 (권장)) 
+
+- 사용환경: Ubuntu 18.04 LTS, Anaconda 
+
+  
+
+⚠주의사항⚠ 
+
+1) 필요한 패키지는 가급적 사전 구성된 conda 내에서 설치하여 사용하길 권장하며, 부득이하게 sudo 권한이 필요한 경우에만 사유와 함께 요청 주시기 바랍니다. 
+
+2) 한 대의 서버는 최대 2팀까지 공용으로 사용할 수 있습니다. 
+
+3) conda 환경을 각 계정별로 분리 구성되어 있으나 시스템 자원은 같이 사용하므로 무리한 프로세스를 연달아 수행하지 않도록 유의해 주십시오.
+
 
 
 ## 💻 PJT 설계
